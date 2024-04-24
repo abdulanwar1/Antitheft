@@ -1,0 +1,5 @@
+<resources>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="app_name">My Application</string>
+</resources>

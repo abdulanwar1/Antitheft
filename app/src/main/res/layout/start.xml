@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:id="@+id/icn"
+        android:layout_width="146dp"
+        android:layout_height="134dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="128dp"
+        android:src="@drawable/lock" />
+
+    <TextView
+        android:id="@+id/wel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the Anti-Theft App"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/icn"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/rem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember your unique PIN"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/wel"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/piinst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your PIN"
+        android:inputType="numberPassword"
+        android:layout_below="@id/rem"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/piincon"
+        android:layout_width="395dp"
+        android:layout_height="66dp"
+        android:layout_below="@id/piinst"
+        android:layout_marginTop="20dp"
+        android:hint="Confirm your PIN"
+        android:inputType="numberPassword" />
+
+    <Button
+        android:id="@+id/piinset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set PIN"
+        android:layout_below="@id/piincon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
