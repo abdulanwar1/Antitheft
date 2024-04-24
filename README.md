@@ -15,7 +15,7 @@ Installing
 
 
 
-    git clone https://github.com/yourusername/myapplication.git
+    git clone https://github.com/abdulanwar1/Antitheft.git
 
     Or download and extract the zip file to a local directory.
 
